@@ -1,14 +1,24 @@
-This Project has been created for learning different concepts of React with some basic capabilities as below.
+# Overview
+This Project has been created for learning different concepts of React.
 
-1. User Authentication using email id & password.
-2. Users can reset the password using emails.
-3. Users can upload the images to the server and view the same in the profile page.
+ Implemented Functionalities 
+  1. User Authentication using email id & password.
+  2. Users can reset the password using emails.
+  3. Users can upload the images to the server and view the same in the profile page.
+
+# Demo
+
+
+https://user-images.githubusercontent.com/28220693/139694806-0c5db6af-55df-431f-9247-1ed65ee05771.mp4
 
 
 
-Task Pending
- 1. Home Page All Images should be from Storage.
- 2. Pagination for the home page to load images from server.
+# Website Link - 
+  https://picsell-development.web.app/
+
+# Task Pending
+ 1. All pictures @Home Page should be from Storage.
+ 2. Pagination for the home page to load pictures from server.
  3. Like functionality for any users to like pictures
  4. Filters for home page based on artist and picture type.
  5. Sort on likes and most viewed.
@@ -16,8 +26,7 @@ Task Pending
  7. Functionality to buy the pictures.
  8. Gather More information from signed up users and store in database.
  9. Pagination for profile page and modal dialog to open picture in it's exact form.
-
-
+ 10. Delete picture from Profile.
 
 # Getting Started with Create React App
 
