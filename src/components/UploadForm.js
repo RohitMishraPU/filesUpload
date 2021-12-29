@@ -4,16 +4,18 @@ import PicProgress from './PicProgress';
 
 
 function UploadForm() {
-    const now = 50;
+
   const [file, setFile] = useState(null);
   const [error, setError] = useState(null);
 
-  const types = ['image/png', 'image/jpeg'];
+  const allowedExtensions = /(\.jpg|\.jpeg|\.png|\.gif|\.pdf|\.doc|\.docx|\.txt|\.zip|\.7z)$/i;
+
+  // const types = ['image/png', 'image/jpeg','application/']; // application/pdf //
 
   const handleChange = (e) => {
     let selected = e.target.files[0];
-
-    if (selected && types.includes(selected.type)) {
+    
+    if (selected && allowedExtensions.exec(selected.name)) {
       setFile(selected);
       setError('');
     } else {

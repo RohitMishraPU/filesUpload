@@ -4,6 +4,7 @@ import { useAuth } from "../../contexts/AuthContext"
 import { Link, useHistory } from "react-router-dom"
 import UploadForm from "../UploadForm"
 import ProfileImageGrid from "../ProfileImageGrid"
+import DisplayCarousel from '../DisplayCarousel'
 
 
 export default function Profile() {
@@ -41,7 +42,8 @@ export default function Profile() {
           </Col>
       </Row>
         <UploadForm/>
-      <ProfileImageGrid/>
+      {/* <ProfileImageGrid/> */}
+      <DisplayCarousel />
     </Container>
 
     
