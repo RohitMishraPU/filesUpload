@@ -60,7 +60,7 @@ code {
   border-color: white;
   background-color: white;
   width: 50em;
-  height: 30em;
+  height: 27em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -92,9 +92,9 @@ code {
   position: absolute;
   width: 30%;
   height: 30%;
-  top: 50%;
+  top: 40%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -40%);
   object-fit: cover;
 }
 
